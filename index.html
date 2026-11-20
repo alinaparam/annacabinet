@@ -270,23 +270,16 @@
 
       <!-- SCHEDULE -->
       <div class="sched-card">
-        <div class="sched-head">📅 Ближайший урок</div>
+        <div class="sched-head">📅 Расписание</div>
         <div class="sched-item">
           <div class="sched-dot"></div>
-          <div class="sched-day">Четверг</div>
-          <div class="sched-time">19 ноября, 18:00 МСК</div>
-        </div>
-        <!-- обычное расписание: классы «sched-day reg» / «sched-time reg» бот НЕ читает — напоминания идут только по строкам выше -->
-        <div class="sched-sub">Обычное расписание</div>
-        <div class="sched-item">
-          <div class="sched-dot reg"></div>
-          <div class="sched-day reg">Вторник</div>
-          <div class="sched-time reg">18:00 МСК</div>
+          <div class="sched-day">Вторник</div>
+          <div class="sched-time">18:00 МСК</div>
         </div>
         <div class="sched-item">
-          <div class="sched-dot reg"></div>
-          <div class="sched-day reg">Суббота</div>
-          <div class="sched-time reg">13:00 МСК</div>
+          <div class="sched-dot"></div>
+          <div class="sched-day">Суббота</div>
+          <div class="sched-time">13:00 МСК</div>
         </div>
       </div>
 
@@ -490,6 +483,48 @@
               </div>
             </div>
           </div>
+          <div class="lesson-item">
+            <div class="lesson-item-head" onclick="toggleLesson(this)">
+              <div class="lesson-title">Rules, rules, rules: must, have to, mustn’t, don’t have to</div>
+              <div class="lesson-date-badge">19 ноября</div>
+              <div class="chevron">&#9660;</div>
+            </div>
+            <div class="lesson-body">
+              <div class="lesson-section">
+                <div class="lesson-section-label">Что делали на уроке</div>
+                <ul class="topic-list">
+                  <li>Warm-up: работа с клетками, detach cells, take into account</li>
+                  <li>Разбор письменной домашки: it depends on, as a scientist, medical record, serious illness</li>
+                  <li>Tenses: quick translate. It will rain, meet someone, in the lab</li>
+                  <li>Правило: must, have to, mustn’t, don’t have to. Что значит «надо», «нельзя» и «не обязательно»</li>
+                </ul>
+              </div>
+              <div class="hw-block">
+                <div class="hw-block-title">&#9999;&#65039; Домашнее задание</div>
+                <div class="hw-item">
+                  <div class="hw-status todo">!</div>
+                  <div>
+                    <div class="hw-task">Тренажёр: правила в лаборатории</div>
+                    <a class="hw-link" href="https://alinaparam.github.io/anyahmw/rules-in-the-lab.html" target="_blank">&#128214; Открыть задания</a>
+                  </div>
+                </div>
+                <div class="hw-item">
+                  <div class="hw-status todo">!</div>
+                  <div>
+                    <div class="hw-task">Прочитать статью «Rules written in blood»</div>
+                    <a class="hw-link" href="https://alinaparam.github.io/anyahmw/rules-written-in-blood.html" target="_blank">&#128300; Открыть статью</a>
+                  </div>
+                </div>
+                <div class="hw-item">
+                  <div class="hw-status todo">!</div>
+                  <div>
+                    <div class="hw-task">Повторить слова: там 6 новых</div>
+                    <a class="hw-link" href="https://alinaparam.github.io/words/anya/" target="_blank">&#128218; Открыть мои слова</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -517,8 +552,8 @@
         </div>
         <div class="month-stats active" id="stats-november">
           <div class="stat-row">
-            <div class="stat-box"><div class="sv">4</div><div class="sl">Уроков</div></div>
-            <div class="stat-box"><div class="sv">3/4</div><div class="sl">Домашек</div></div>
+            <div class="stat-box"><div class="sv">5</div><div class="sl">Уроков</div></div>
+            <div class="stat-box"><div class="sv">4/5</div><div class="sl">Домашек</div></div>
           </div>
         </div>
       </div>
